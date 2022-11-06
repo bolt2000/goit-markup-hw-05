@@ -486,7 +486,7 @@ button:focus {
   border-radius: 50%;
   background-color: var(--brand-white);
   fill: var(--color-border-grey);
-  transition-property: background-color fill;
+  transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
